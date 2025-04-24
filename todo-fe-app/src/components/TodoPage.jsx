@@ -83,6 +83,7 @@ const TodoPage = () => {
             error={error}
             handleEditClick={handleEditClick}
             handleDeleteClick={handleDeleteClick}
+            setTodos={setTodos}
           />
         </ul>
       ) : (
